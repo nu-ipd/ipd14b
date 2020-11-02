@@ -7,6 +7,12 @@ struct Posn
 {
     double x, y;
 
+    // Constructs the `Posn` with the given coordinates.
+    Posn(double x, double y);
+
+    // Default constructs the origin.
+    Posn();
+
     // Computes the distance between two `Posn`s
     double distance_to(Posn other) const;
 };
@@ -20,6 +26,16 @@ struct Circle
 {
     double radius;
     Posn center;
+
+    // Constructs a circle with the given radius and center.
+    //
+    // PRECONDITION: radius > 0
+    Circle(double radius, Posn center);
+
+    // Constructs a circle with the given radius, center x, and center y.
+    //
+    // PRECONDITION: radius > 0
+    Circle(double radius, double x, double y);
 
     // Computes the area of this circle.
     double area() const;

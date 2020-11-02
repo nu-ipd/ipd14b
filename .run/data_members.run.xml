@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="data_members" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ipd14b" TARGET_NAME="data_members" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ipd14b" RUN_TARGET_NAME="data_members">
+  <configuration default="false" name="data_members" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ipd15a" TARGET_NAME="data_members" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ipd15a" RUN_TARGET_NAME="data_members">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
