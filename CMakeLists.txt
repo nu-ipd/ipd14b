@@ -13,7 +13,10 @@ add_cxx_test_program(constructors_test
         test/constructors_test.cxx
         src/constructors.cxx)
 
-# Exercises:
+###
+### Exercises
+###
+
 add_cxx_program(ipd15a-1
         exercise/ipd15a-1-main.cxx
         exercise/ipd15a-1.cxx)
